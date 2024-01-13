@@ -24,6 +24,7 @@
   --body-text: ##1e1e1e;
   --header-text: #202124;
   --btn-text: #e5e7eb;
+  --navbar-link: #4a4d50;
 
   --btn-gradient: linear-gradient(
     122deg,
@@ -40,6 +41,8 @@
   );
 
   --container-max-width: 1242px;
+
+  --btn-border-radius: 8px;
 }
 
 body {
@@ -49,7 +52,6 @@ body {
 
 a {
   text-decoration: none;
-  color: red;
 }
 
 li {
@@ -75,16 +77,24 @@ section {
   margin: 0 auto;
 }
 
-.navigation,
-.navigation ul {
+.nav-bar,
+.nav-bar ul {
   display: flex;
   gap: 3.2rem;
 }
 
-.navigation ul li a {
-  color: #4a4d50;
+.nav-bar ul li a {
+  color: var(--navbar-link);
   font-family: inherit;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 24px;
+}
+
+.nav-bar button {
+  background: var(--btn-gradient);
+  padding: 1rem 1.8rem;
+  border-radius: var(--btn-border-radius);
+  border: none;
+  outline: none;
 }
