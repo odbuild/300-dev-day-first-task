@@ -81,6 +81,7 @@ section {
 .nav-bar ul {
   display: flex;
   gap: 3.2rem;
+  align-items: center;
 }
 
 .nav-bar ul li a {
