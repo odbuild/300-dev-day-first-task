@@ -93,7 +93,10 @@ section {
 }
 
 .nav-bar button {
+  font-family: var(--header-font);
   background: var(--btn-gradient);
+  font-weight: 600;
+  color: var(--btn-text);
   padding: 1rem 1.8rem;
   border-radius: var(--btn-border-radius);
   border: none;
