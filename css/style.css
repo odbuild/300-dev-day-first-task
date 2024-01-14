@@ -336,3 +336,177 @@ gap: 16px;
   border-radius: 8px;
 border: 0.5px solid #1E1E1E;
 }
+
+
+
+/* Mechandise Categories */
+
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+
+.title h2{
+  font-size: 42px;
+  line-height: 41.51px;
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+
+.categories{
+  background-color: #D3E3FD;
+  width: 290.55px;
+  height: 92.24px;
+  border-radius: 18.45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.categories img{
+  width: 15px;
+  height: 13px;
+}
+
+
+
+.categories p{
+  font-size: 18.3px;
+  line-height: 27px;
+}
+
+/* adding separate colors for each of the category boxes */
+.color2{
+  background-color: #E3E3E3;
+}
+
+
+.color3{
+  background-color: #C2E7FF;
+}
+
+
+.color4{
+  background-color: #C4EED0;
+}
+
+.color5{
+  background-color: #D5D1FF;
+}
+
+
+.color6{
+  background-color: #FDE3FF;
+}
+
+
+.color7{
+  background-color: #EEFFBE;
+}
+
+
+.color8{
+  background-color: #FFE1E1;
+}
+
+
+
+/* What we teach */
+
+
+.teaching{
+  margin-top: 100px;
+}
+
+
+.teaching .teach{
+  
+  background-color: #FEF7E0;
+ 
+}
+
+
+.teaching .teach-offer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  background-color: #FEF7E0;
+}
+
+.margin{
+  margin-top: 50px;
+}
+
+
+.teaching .edu-books{
+  background-color: #EDEFFF;
+}
+
+
+.teaching .flash-cards{
+  background-color: #F6ECFF;
+}
+
+.teaching .content-left{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.content-left h2{
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.7203947305679321px;
+  text-align: left;
+  width: 100px;
+  width: 360px;
+  padding-bottom: 20px;
+
+}
+
+
+.content-left p{
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 381px;
+}
+
+
+.content-left .btn{
+  padding: 9.97px, 17.94px, 9.97px, 17.94px;
+  border-radius: 7.97px;
+  width: 100px;
+  background-color: #202020;
+  color: #fff;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+
+.teach-offer img{
+  width: 670px;
+  height: 515px;
+  border-radius: 20px;
+  
+}
+
+
+.edu-books {
+  flex-direction: row-reverse;
+}
